@@ -1,6 +1,6 @@
 # Measuring-Offensive-Line-Importance-in-Fantasy-Football
 
-Using simple linear regression techniques I explore the impact of Offensive Line scores and rankings to the subsequent performance of Quarterbacks and Running Backs. The data is for the 2017 season and measures QB and RB performance based on the number of fantasy points obtained over the season. 
+Using simple linear regression techniques to explore the impact of Offensive Line scores and rankings to the subsequent performance of Quarterbacks and Running Backs. The data is for the 2017 season and measures QB and RB performance based on the number of fantasy points obtained over the season. 
 
 After some qualitative assessments are made to control for outliers (e.g. removing the Cleveland Browns, who went 0-16, from the analysis), we find that there is no statistically significant relationship between QB fantasy performance and offensive line strength. The R2 values are low and p-values suggest weak evidence against the null hypothesis.
 
@@ -8,4 +8,4 @@ However, we find a fairly strong correlation between offensive line strength and
 
 Further analysis would need to be done to understand the week-to-week impacts on fantasy performance. Another note is that this initial analysis has limited value for fantasy draft strategy on teams where there is no clear RB1 as a strong offensive line just indicates the team's stable of running backs will be collectively successful. Further analysis should control for the number of touches (i.e. running opportunities) given to each running back. 
 
-Happy Drafting!
+This can inform drafting strategy for fantasy football players, specifically, which teams to target or avoid when drafting running backs. Happy Drafting!
